@@ -5,48 +5,6 @@
   font-style: normal;
   font-weight: 400;
 }
-@font-face {
-  font-family: "Open Sans";
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Regular/Open-Sans-Italic.eot");
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Regular/Open-Sans-Italic.eot?#iefix") format("embedded-opentype"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Regular/Open-Sans-Italic.woff2") format("woff2"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Regular/Open-Sans-Italic.woff") format("woff"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Regular/Open-Sans-Italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Semibold/Open-Sans-Semibold.eot");
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Semibold/Open-Sans-Semibold.eot?#iefix") format("embedded-opentype"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Semibold/Open-Sans-Semibold.woff2") format("woff2"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Semibold/Open-Sans-Semibold.woff") format("woff"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Semibold/Open-Sans-Semibold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light.eot");
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light.eot?#iefix") format("embedded-opentype"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light.woff2") format("woff2"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light.woff") format("woff"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light-Italic.eot");
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light-Italic.eot?#iefix") format("embedded-opentype"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light-Italic.woff2") format("woff2"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light-Italic.woff") format("woff"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Light/Open-Sans-Light-Italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold.eot");
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold.eot?#iefix") format("embedded-opentype"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341771/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold.woff2") format("woff2"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341760/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold.woff") format("woff"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521341778/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521345423/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold-Italic.eot.eot");
-  src: url("https://res.cloudinary.com/limononoto/raw/upload/v1521345423/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold-Italic.eot?#iefix") format("embedded-opentype"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521345360/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold-Italic.woff2") format("woff2"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521345371/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold-Italic.woff") format("woff"), url("https://res.cloudinary.com/limononoto/raw/upload/v1521345394/personal_web/uploads/fonts/Open-Sans/Bold/Open-Sans-Bold-Italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: 600;
-}
 
 * {
   font-family: "Open sans",Helvetica, Arial, sans-serif;
@@ -114,7 +72,7 @@ img {
 
 body { 
   background: #ffff; 
-    color: rgba(0,0,0,0.87); 
+    color: #1d1f1e; 
     margin: 0; 
  }
 
@@ -143,6 +101,7 @@ header .logo {
   background-color: #fbfbfb;
   grid-row: 2/5;
   grid-column: 1/2;
+  box-shadow: 1px 3px 2px -1px #1d1f1e;
 }
 
 .sidebar .profile {
@@ -162,6 +121,7 @@ header .logo {
   background-color: #fbfbfb;
   grid-column: 2/5;
   font-size: 21px;
+  box-shadow: -1px 3px 2px -1px #1d1f1e;
 }
 footer {
   padding: 10px;

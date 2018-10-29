@@ -13,7 +13,7 @@ function sum() {
         errorMessage.innerHTML = "";
     }else {
         inputNumber[2].value = "0";
-        errorMessage.innerHTML = "This field is required";
+        errorMessage.innerHTML = "Tulis angka pada kolom input";
     }
 }
 
