@@ -1,4 +1,4 @@
-const cachesName = 'mws-bayusyaits-v3';
+const cachesName = 'mws-bayusyaits-v24';
 const files = [
   './index.html',
   './calculator/index.html',
@@ -13,11 +13,21 @@ const files = [
   './src/app.css'
   ];
 
-
-
 // Install SW
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(cachesName)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(files);
+      })
+  );
+});
+
 self.addEventListener('activate', function(event) {
 });
+
 
 self.addEventListener('fetch', (event) => {
 event.respondWith(
@@ -27,7 +37,7 @@ event.respondWith(
         return response;
       }
       return fetch(event.request).then(response => {
-        return caches.open(CACHE_NAME).then(cache => {
+      return caches.open(cachesName).then(cache => {
           cache.put(event.request.url, response.clone());
           return response;
         });
